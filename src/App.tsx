@@ -1,9 +1,12 @@
 import React from 'react';
+import Card from './components/Card';
+import ChangeThemeButton from './components/ChangeThemeButton';
 
 const App = () => {
     return (
         <div>
-            Hello World
+            <Card/>
+            <ChangeThemeButton/>
         </div>
     )
 }
